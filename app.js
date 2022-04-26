@@ -29,3 +29,28 @@ app.get('/v1/explorers', (req,res)=>{
 	
 })
 
+//GET
+app.get('/v1/explorers/:id', (req,res)=>{
+
+
+	console.log(`Api Explorers GET request ${new Date()}`)
+	console.log(`Getting explorer with id ${req.params.id}`)
+	const explorer = {id:1,name:"Woopa1"}
+	res.status(200).json(explorer)
+})
+app.post
+
+//POST
+
+
+
+
+
+
+
+
+
+
+
+
+
